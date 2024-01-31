@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title> day 4 task</title>
+</head>
+<style>
+    table{
+        border-style: solid;
+        border-collapse: collapse;
+    }
+</style>
+<body> <table border="1" align="center" cellpadding="50" cellspacing="40" width="50%" >
+<tr>
+<td><img src="https://images.google.com/">
+<td>google
+</tr>
+<tr>
+    <td><img src="https://www.facebook.com/login.php/">
+    <td>facebook
+    </tr>
+    <tr>
+        <td><img src="https://twitter.com/?lang=en-in">
+        <td>twitter
+        </tr>
+</table></body></html>
