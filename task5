@@ -1,0 +1,78 @@
+<html>
+    <body align="center">
+<style>
+    label{
+        width: 100px;
+        display: inline-block;
+    }
+</style>
+        <div id="form" >
+            <h2 align="center">Registration Form</h2>
+            <br><br>
+            Student Name*:<input type="text" placeholder="Student name" name="name">
+            <br>
+            Last Name*:<input type="text" placeholder="Last Name" name="fname">
+            <br>
+            Enter email*:<input type="text" placeholder="enter a email">
+            <br>
+            Password*:<input type="text" >
+            <br>
+            gender:<input type="radio" name="r1"/>Male
+            <input type="radio" name="r1"/>Female
+            <br>
+            Mobile Number:<input type="int" placeholder="mobile no">
+            <br>
+            Intreseted Course:
+            <input type="Checkbox" name="C1">java</input>
+            <input type="Checkbox" name="C2">html</input>
+            <input type="Checkbox" name="C3">java Script</input>
+            <input type="Checkbox" name="C3">python</input>
+            <br>
+            percentage:  <progress id="fileS" value="50" max="100" >50</progress>
+            <br>
+            upload resume*:
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx">
+                <br>
+            </form>
+            <br>
+            Select City:
+            <select name="hyderabad" id="city">
+                    <option>bombai</option>
+                    <option>delhi</option>
+                    <option>pune</option>
+                    <option>goa</option>
+                    <option>chennai</option>
+                </select></option>
+            <br>
+            Date of Birth:
+    <input type="date" id="dob" name="dob">
+            <br>
+            Course Start Date:
+            <input type="date">  
+            <input type="time">
+                    <br>
+                    Class Timeing and Week:
+                    <input type="time">
+                    <input type="date">
+                            <br>
+                            google search:
+                            <input type="text">
+                            <br>
+                            Favourite colour:
+                            <input type="color">Black
+                            <br>
+                            Url:
+                            <input type="text">
+                            <br>
+                            google image:
+                            <input type="image">
+                            <br>
+                            Address:
+                            <input type="float">
+                            <br>
+                            <button type="button">Reset</button>
+                            <button type="button">submit</button>
+        </form>
+    </body>
+</html>
