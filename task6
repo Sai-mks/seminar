@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title> day 3 task</title>
+    <style>
+        table{
+           border-style: solid;
+           border-collapse: collapse;
+        }
+     </style>
+</head>
+<body> <table border="1" align="center" cellpadding="50" cellspacing="40" width="50%" >
+<tr>
+<td align="center" colspan="2"><b>Header Section
+</tr>
+<tr>
+   <td align="center" colspan="2"><b>Navigation Bar
+   </tr>
+   <tr>
+      <td align="center"><b>Index
+         <td align="center"><b>Content Section</b>
+      </tr>
+      <tr>
+         <td align="center" colspan="2"><b>Footer Section
+      </tr>
+</table>
+</body>
+</html>
