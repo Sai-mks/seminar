@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title> day 3 task</title>
+    <title> day 6 task</title>
     <style>
         table{
            border-style: solid;
@@ -10,18 +10,30 @@
 </head>
 <body> <table border="1" align="center" cellpadding="50" cellspacing="40" width="50%" >
 <tr>
-<td align="center" colspan="2"><b>Header Section
+<td colspan="3">1
+<td width="10%">4
+<td rowspan="3">5
 </tr>
 <tr>
-   <td align="center" colspan="2"><b>Navigation Bar
-   </tr>
-   <tr>
-      <td align="center"><b>Index
-         <td align="center"><b>Content Section</b>
-      </tr>
-      <tr>
-         <td align="center" colspan="2"><b>Footer Section
-      </tr>
+<td>1
+<td rowspan="2" width="10%">2
+<td>3
+<td>4
+</tr>
+<tr>
+<td rowspan="2">1
+<td>3
+<td>4
+</tr>
+<tr>
+<td colspan="3">2
+<td>5
+</tr>
+<tr>
+<td>1
+<td>2
+<td colspan="3">3
+</tr>
 </table>
 </body>
 </html>
